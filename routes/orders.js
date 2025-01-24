@@ -3,7 +3,7 @@ const router = express.Router();
 router.use(express.json());
 
 const {
-  order, 
+  order,
   getOrders,
   getOrderDetail,
 } = require('../controller/OrderController');

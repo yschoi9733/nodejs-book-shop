@@ -5,7 +5,7 @@ router.use(express.json());
 const {
   addCartItem,
   getCartItems,
-  removeCartItem
+  removeCartItem,
 } = require('../controller/CartController');
 
 router.post('/', addCartItem);
